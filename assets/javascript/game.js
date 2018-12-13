@@ -81,7 +81,6 @@ $(document).ready(function () {
 
                 if (wrongGuesses == 0) {
                     $("#result").append("You Lose!")
-                    init()
                     gameOver = true
                 }
             }
